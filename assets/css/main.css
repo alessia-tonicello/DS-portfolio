@@ -2462,6 +2462,57 @@ input, select, textarea {
 			padding-top: 2em;
 		}
 
+
+/* Full-screen-Footer Styles */
+	.full-screen-footer {
+	    background-color: #2d2d2d; /* Colore di sfondo scuro */
+	    color: white; /* Colore del testo */
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: center;
+	    align-items: center;
+	    text-align: center;
+	    min-height: 100vh; /* Occupa tutta l'altezza dello schermo */
+	    padding: 40px;
+	}
+	
+	.full-screen-footer .content {
+	    max-width: 800px;
+	    margin: 0 auto;
+	}
+	
+	.full-screen-footer h2 {
+	    font-size: 2rem;
+	    margin-bottom: 20px;
+	}
+	
+	.full-screen-footer p {
+	    margin: 10px 0;
+	    font-size: 1.2rem;
+	}
+	
+	.full-screen-footer .social-icons {
+	    display: flex;
+	    justify-content: center;
+	    list-style: none;
+	    padding: 0;
+	}
+	
+	.full-screen-footer .social-icons li {
+	    margin: 0 10px;
+	}
+	
+	.full-screen-footer .social-icons a {
+	    color: white;
+	    text-decoration: none;
+	    font-size: 1.5rem;
+	}
+
+
+
+
+
+
 /* Footer */
 
 	#footer {
