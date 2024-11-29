@@ -2515,9 +2515,11 @@ input, select, textarea {
 	    padding: 50px 20px;
 	}
 	
-	.skills-container {
-	    max-width: 900px;
-	    margin: 0 auto; /* Allinea la sezione al centro */
+	.skills-container-full {
+	    width: 100%;
+	    margin: 0
+	    padding: 20px 0;
+	    box-sizing: border-box;/* Allinea la sezione al centro */
 	}
 	
 	/* Centra il titolo principale "Skills" */
