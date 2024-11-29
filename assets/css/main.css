@@ -2522,7 +2522,7 @@ input, select, textarea {
 	
 	/* Centra il titolo principale "Skills" */
 	.skills-container h1 {
-	    font-size: 2.5rem;
+	    font-size: 3rem;
 	    color: #333; /* Colore del titolo principale */
 	    margin-bottom: 40px;
 	    text-align: center; /* Centra il titolo */
@@ -2555,7 +2555,7 @@ input, select, textarea {
 	    font-size: 1.2rem;
 	    color: #444;
 	    padding: 10px 15px;
-	    border-left: 8px solid #1a73e8; /* Bordo sinistro colorato */
+	    border-left: 8px solid #df7366; /* Bordo sinistro colorato */
 	    width: 100%;
 	    background-color: #fff;
 	    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
