@@ -2508,6 +2508,44 @@ input, select, textarea {
 	    font-size: 1.5rem;
 	}
 
+/* Stile per la sezione Skills */
+	.skills-section {
+	    background-color: #f4f4f4; /* Colore di sfondo chiaro */
+	    padding: 50px 20px;
+	    text-align: center;
+	}
+	
+	.skills-container {
+	    margin: 20px auto;
+	    max-width: 600px;
+	}
+	
+	.skills-container h2 {
+	    font-size: 1.8rem;
+	    color: #333; /* Colore del testo */
+	    margin-bottom: 20px;
+	}
+	
+	.skills-list {
+	    list-style-type: none; /* Rimuove i bullet points */
+	    padding: 0;
+	    margin: 0;
+	    font-size: 1.2rem;
+	    color: #555; /* Colore del testo */
+	}
+	
+	.skills-list li {
+	    margin: 10px 0;
+	    padding: 10px;
+	    border: 1px solid #ddd; /* Aggiunge un bordo */
+	    border-radius: 5px; /* Angoli arrotondati */
+	    background-color: #fff; /* Sfondo bianco */
+	    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombreggiatura */
+	}
+	
+	.skills-list li:hover {
+	    background-color: #e9e9e9; /* Cambia il colore di sfondo al passaggio del mouse */
+	}
 
 
 
