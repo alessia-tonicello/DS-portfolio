@@ -2536,7 +2536,7 @@ input, select, textarea {
 	/* Sottotitoli "Programming Languages" e "Soft Skills" allineati a sinistra */
 	.sub-section h2 {
 	    font-size: 2rem;
-	    color: #1a73e8; /* Colore del sottotitolo */
+	    color: #333; /* Colore del sottotitolo */
 	    margin-bottom: 15px;
 	    font-weight: 600;
 	    text-align: left; /* Allinea a sinistra */
