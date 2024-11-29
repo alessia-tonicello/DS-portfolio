@@ -2509,21 +2509,22 @@ input, select, textarea {
 	}
 
 /* Stile per la sezione Skills */
+		
 	.skills-section {
 	    background-color: #f4f4f4; /* Colore di sfondo chiaro */
 	    padding: 50px 20px;
-	    text-align: center;
 	}
 	
 	.skills-container {
 	    margin: 20px auto;
-	    max-width: 600px;
+	    max-width: 100%; /* Larghezza massima del contenitore */
 	}
 	
 	.skills-container h2 {
 	    font-size: 1.8rem;
 	    color: #333; /* Colore del testo */
 	    margin-bottom: 20px;
+	    text-align: left; /* Titolo allineato a sinistra */
 	}
 	
 	.skills-list {
@@ -2532,6 +2533,7 @@ input, select, textarea {
 	    margin: 0;
 	    font-size: 1.2rem;
 	    color: #555; /* Colore del testo */
+	    text-align: left; /* Allinea il testo a sinistra */
 	}
 	
 	.skills-list li {
@@ -2546,8 +2548,6 @@ input, select, textarea {
 	.skills-list li:hover {
 	    background-color: #e9e9e9; /* Cambia il colore di sfondo al passaggio del mouse */
 	}
-
-
 
 
 
