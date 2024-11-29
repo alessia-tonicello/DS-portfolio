@@ -2540,7 +2540,8 @@ input, select, textarea {
 	    font-size: 1.2rem;
 	    color: #444; /* Colore del testo */
 	    padding: 10px 15px;
-	    border-left: 5px solid #1a73e8; /* Linea colorata a sinistra di ogni elemento */
+	    border-left: 8px solid #1a73e8; /* Linea colorata a sinistra di ogni elemento */
+	width: 100%;
 	    background-color: #fff; /* Sfondo bianco */
 	    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombra leggera */
 	    border-radius: 5px; /* Angoli arrotondati */
