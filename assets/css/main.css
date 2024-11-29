@@ -2509,45 +2509,49 @@ input, select, textarea {
 	}
 
 /* Stile per la sezione Skills */
-		
+	
 	.skills-section {
-	    background-color: #f4f4f4; /* Colore di sfondo chiaro */
+	    background-color: #f9f9f9; /* Sfondo neutro */
 	    padding: 50px 20px;
 	}
 	
 	.skills-container {
-	    margin: 20px auto;
-	    max-width: 100%; /* Larghezza massima del contenitore */
+	    max-width: 800px;
+	    margin: 0 auto;
+	    text-align: left; /* Allinea tutto a sinistra */
 	}
 	
 	.skills-container h2 {
-	    font-size: 1.8rem;
-	    color: #333; /* Colore del testo */
+	    font-size: 2rem;
+	    color: #333; /* Colore del testo del titolo */
 	    margin-bottom: 20px;
-	    text-align: left; /* Titolo allineato a sinistra */
+	    border-bottom: 2px solid #555; /* Linea decorativa sotto il titolo */
+	    padding-bottom: 5px;
 	}
 	
 	.skills-list {
-	    list-style-type: none; /* Rimuove i bullet points */
+	    list-style: none; /* Rimuove i bullet points */
 	    padding: 0;
 	    margin: 0;
-	    font-size: 1.2rem;
-	    color: #555; /* Colore del testo */
-	    text-align: left; /* Allinea il testo a sinistra */
 	}
 	
 	.skills-list li {
-	    margin: 10px 0;
-	    padding: 10px;
-	    border: 1px solid #ddd; /* Aggiunge un bordo */
-	    border-radius: 5px; /* Angoli arrotondati */
+	    margin: 15px 0;
+	    font-size: 1.2rem;
+	    color: #444; /* Colore del testo */
+	    padding: 10px 15px;
+	    border-left: 5px solid #1a73e8; /* Linea colorata a sinistra di ogni elemento */
 	    background-color: #fff; /* Sfondo bianco */
-	    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombreggiatura */
+	    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombra leggera */
+	    border-radius: 5px; /* Angoli arrotondati */
+	    transition: background-color 0.3s, transform 0.2s; /* Animazione al passaggio del mouse */
 	}
 	
 	.skills-list li:hover {
-	    background-color: #e9e9e9; /* Cambia il colore di sfondo al passaggio del mouse */
+	    background-color: #f1f8ff; /* Cambia colore di sfondo */
+	    transform: translateX(10px); /* Si sposta leggermente a destra */
 	}
+
 
 
 
