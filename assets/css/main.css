@@ -2509,49 +2509,65 @@ input, select, textarea {
 	}
 
 /* Stile per la sezione Skills */
-	
+		
 	.skills-section {
-	    background-color: #f9f9f9; /* Sfondo neutro */
+	    background-color: #f9f9f9; /* Sfondo chiaro */
 	    padding: 50px 20px;
 	}
 	
 	.skills-container {
-	    max-width: 800px;
-	    margin: 0 auto;
-	    text-align: left; /* Allinea tutto a sinistra */
+	    max-width: 900px;
+	    margin: 0 auto; /* Allinea la sezione al centro */
 	}
 	
-	.skills-container h2 {
+	/* Centra il titolo principale "Skills" */
+	.skills-container h1 {
+	    font-size: 2.5rem;
+	    color: #333; /* Colore del titolo principale */
+	    margin-bottom: 40px;
+	    text-align: center; /* Centra il titolo */
+	}
+
+	/* Stile per le sotto-sezioni */
+	.sub-section {
+	    margin-bottom: 30px; /* Spazio tra le sezioni */
+	}
+	
+	/* Sottotitoli "Programming Languages" e "Soft Skills" allineati a sinistra */
+	.sub-section h2 {
 	    font-size: 2rem;
-	    color: #333; /* Colore del testo del titolo */
-	    margin-bottom: 20px;
-	    border-bottom: 2px solid #555; /* Linea decorativa sotto il titolo */
-	    padding-bottom: 5px;
+	    color: #1a73e8; /* Colore del sottotitolo */
+	    margin-bottom: 15px;
+	    font-weight: 600;
+	    text-align: left; /* Allinea a sinistra */
 	}
 	
+	/* Stile per la lista delle skills */
 	.skills-list {
-	    list-style: none; /* Rimuove i bullet points */
+	    list-style: none;
 	    padding: 0;
 	    margin: 0;
 	}
-	
+
+	/* Stile per ciascun elemento della lista */
 	.skills-list li {
-	    margin: 15px 0;
+	    margin: 10px 0;
 	    font-size: 1.2rem;
-	    color: #444; /* Colore del testo */
+	    color: #444;
 	    padding: 10px 15px;
-	    border-left: 8px solid #1a73e8; /* Linea colorata a sinistra di ogni elemento */
+	    border-left: 8px solid #1a73e8; /* Bordo sinistro colorato */
 	    width: 100%;
-	    background-color: #fff; /* Sfondo bianco */
-	    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombra leggera */
-	    border-radius: 5px; /* Angoli arrotondati */
-	    transition: background-color 0.3s, transform 0.2s; /* Animazione al passaggio del mouse */
+	    background-color: #fff;
+	    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	    border-radius: 5px;
+	    transition: background-color 0.3s, transform 0.2s;
 	}
 	
 	.skills-list li:hover {
-	    background-color: #f1f8ff; /* Cambia colore di sfondo */
-	    transform: translateX(10px); /* Si sposta leggermente a destra */
+	    background-color: #f1f8ff;
+	    transform: translateX(10px);
 	}
+
 
 
 
