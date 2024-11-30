@@ -2178,6 +2178,11 @@ input, select, textarea {
 
 		.wrapper.style2 {
 			padding-top: 0;
+			width: 100%; /* Estende la larghezza al 100% della pagina */
+                        margin: 0; /* Rimuove i margini */
+                        padding: 40px 0; /* Aggiunge spazio interno (padding) sopra e sotto */
+                        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Aggiunge ombra se necessario */
+}
 		}
 
 /* Header */
