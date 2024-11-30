@@ -78,46 +78,6 @@ input, select, textarea {
   border-radius: 50%;
 }
 
-/* Intro */
-	#intro {
-	  display: flex;
-	  flex-direction: column; /* Disposizione verticale degli elementi */
-	  align-items: center; /* Centra orizzontalmente */
-	  justify-content: center; /* Centra verticalmente */
-	  text-align: center; /* Centra il testo */
-	  height: 100vh; /* Fa in modo che occupi l'intera altezza della finestra */
-	  background: linear-gradient(to bottom, #1e3c72, #2a5298); /* Aggiunge uno sfondo gradiente */
-	  color: white; /* Colore del testo */
-	}
-	
-	.profile-photo {
-	  width: 220px;
-	  height: 220px;
-	  border-radius: 50%;
-	  object-fit: cover;
-	  margin-bottom: 20px; /* Spaziatura sotto l'immagine */
-	}
-	
-	h1 {
-	  font-size: 2.5em;
-	  margin: 10px 0;
-	}
-	
-	p {
-	  font-size: 1.2em;
-	  margin-bottom: 30px;
-	}
-	
-	button {
-	  margin-top: 20px;
-	}
-
-
-
-
-
-
-
 /* Basic */
 
 	html {
@@ -2218,8 +2178,6 @@ input, select, textarea {
 
 		.wrapper.style2 {
 			padding-top: 0;
-		
-}
 		}
 
 /* Header */
@@ -2517,33 +2475,33 @@ input, select, textarea {
 	    min-height: 100vh; /* Occupa tutta l'altezza dello schermo */
 	    padding: 40px;
 	}
-	
+
 	.full-screen-footer .content {
 	    max-width: 800px;
 	    margin: 0 auto;
 	}
-	
+
 	.full-screen-footer h2 {
 	    font-size: 2rem;
 	    margin-bottom: 20px;
 	}
-	
+
 	.full-screen-footer p {
 	    margin: 10px 0;
 	    font-size: 1.2rem;
 	}
-	
+
 	.full-screen-footer .social-icons {
 	    display: flex;
 	    justify-content: center;
 	    list-style: none;
 	    padding: 0;
 	}
-	
+
 	.full-screen-footer .social-icons li {
 	    margin: 0 10px;
 	}
-	
+
 	.full-screen-footer .social-icons a {
 	    color: white;
 	    text-decoration: none;
@@ -2551,21 +2509,24 @@ input, select, textarea {
 	}
 
 /* Stile per la sezione Skills */
-		
+
 	.skills-section {
 	    background-color: #f9f9f9; /* Sfondo chiaro */
 	    padding: 50px 20px;
 	}
-	
+
+	.skills-container {
+	    max-width: 900px;
+	    margin: 0 auto; /* Allinea la sezione al centro */
 	.skills-container-full {
 	    width: 100%;
 	    margin: 0
 	    padding: 20px 0;
 	    box-sizing: border-box;/* Allinea la sezione al centro */
 	}
-	
+
 	/* Centra il titolo principale "Skills" */
-	.skills-container h2 {
+	.skills-container h1 {
 	    font-size: 3rem;
 	    color: #333; /* Colore del titolo principale */
 	    margin-bottom: 40px;
@@ -2576,16 +2537,16 @@ input, select, textarea {
 	.sub-section {
 	    margin-bottom: 30px; /* Spazio tra le sezioni */
 	}
-	
+
 	/* Sottotitoli "Programming Languages" e "Soft Skills" allineati a sinistra */
-	.sub-section h3 {
+	.sub-section h2 {
 	    font-size: 2rem;
 	    color: #333; /* Colore del sottotitolo */
 	    margin-bottom: 15px;
 	    font-weight: 600;
 	    text-align: left; /* Allinea a sinistra */
 	}
-	
+
 	/* Stile per la lista delle skills */
 	.skills-list {
 	    list-style: none;
@@ -2606,7 +2567,7 @@ input, select, textarea {
 	    border-radius: 5px;
 	    transition: background-color 0.3s, transform 0.2s;
 	}
-	
+
 	.skills-list li:hover {
 	    background-color: #f1f8ff;
 	    transform: translateX(10px);
