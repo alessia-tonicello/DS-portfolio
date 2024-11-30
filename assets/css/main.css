@@ -78,6 +78,46 @@ input, select, textarea {
   border-radius: 50%;
 }
 
+/* Intro */
+	#intro {
+	  display: flex;
+	  flex-direction: column; /* Disposizione verticale degli elementi */
+	  align-items: center; /* Centra orizzontalmente */
+	  justify-content: center; /* Centra verticalmente */
+	  text-align: center; /* Centra il testo */
+	  height: 100vh; /* Fa in modo che occupi l'intera altezza della finestra */
+	  background: linear-gradient(to bottom, #1e3c72, #2a5298); /* Aggiunge uno sfondo gradiente */
+	  color: white; /* Colore del testo */
+	}
+	
+	.profile-photo {
+	  width: 220px;
+	  height: 220px;
+	  border-radius: 50%;
+	  object-fit: cover;
+	  margin-bottom: 20px; /* Spaziatura sotto l'immagine */
+	}
+	
+	h1 {
+	  font-size: 2.5em;
+	  margin: 10px 0;
+	}
+	
+	p {
+	  font-size: 1.2em;
+	  margin-bottom: 30px;
+	}
+	
+	button {
+	  margin-top: 20px;
+	}
+
+
+
+
+
+
+
 /* Basic */
 
 	html {
