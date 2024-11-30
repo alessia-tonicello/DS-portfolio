@@ -2528,7 +2528,7 @@ input, select, textarea {
 	}
 	
 	/* Centra il titolo principale "Skills" */
-	.skills-container h1 {
+	.skills-container h2 {
 	    font-size: 3rem;
 	    color: #333; /* Colore del titolo principale */
 	    margin-bottom: 40px;
@@ -2541,7 +2541,7 @@ input, select, textarea {
 	}
 	
 	/* Sottotitoli "Programming Languages" e "Soft Skills" allineati a sinistra */
-	.sub-section h2 {
+	.sub-section h3 {
 	    font-size: 2rem;
 	    color: #333; /* Colore del sottotitolo */
 	    margin-bottom: 15px;
